@@ -1,0 +1,271 @@
+body {
+    background-color: black;
+    color: #ffff ;
+    margin: 0;
+    font-family: arial, helvetica, sans-serif;
+    font-size: small;
+    
+} 
+h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+header {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    color: #ffff;
+    }
+
+    header nav ul {
+        display: flex;
+        color: #ffff;
+        list-style: none;
+        gap: 60px;
+    }
+
+    header nav ul a{
+        text-decoration: none;
+        height: 200px;
+        justify-content: center;
+        color: #ffff;
+        font-size: 40px
+    }
+    header nav ul a:hover
+    {
+        text-decoration: underline;
+        color: #ffff;
+    }
+    .copertina img{
+        width: 100%;
+    }
+    .titolo p {
+        
+    font-size: 100px;
+    padding: 150px;
+        font-family: 'Times New Roman', Times, serif;
+    color: #FFD600;
+    }
+    .text1 p {
+         font-size: 24px;
+         padding: 170px;
+
+    }
+    .testoeimg{
+        height: 1000px;
+        margin: 0;
+        display: flex;
+        gap: 50px;
+        background-color: #ffff;
+        color: black;
+        }
+    .imgrodari img {
+        width: 300%;
+        padding: 105px;
+    margin-top: 218px;
+    justify-content: left;
+    }
+    .imgrodari {
+       padding: 80px;
+
+       }
+
+    .testo  {
+        max-width: 100%;
+        padding: 100px;
+        display: flex;
+        margin-left: 50px;
+        justify-content: left;
+        font-size: 24px;
+    }
+    .testoeimg .txt {
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif
+    }
+    .paragrafo {
+        background-color: black;
+        padding: 120px;
+        display: flex;
+        font-size: 24px;
+        margin: auto;
+        justify-content: space-between ;
+        
+        
+
+    }
+    .centoanni img {
+        width: 30%;
+        border-radius: 20%;
+        justify-content: left;
+        
+        
+
+    }
+    .centoanni {
+        display: flex;
+        gap: 40px;
+        justify-content: space-between;
+        width: 90%;
+        
+    }
+    .trasposizioni {
+        font-size: 24px;
+        margin-left: 40px;
+        display: flex;   
+        width: 40%;     
+    }
+
+    .paragrafoo {
+        margin: auto;
+        height: 1900px;
+        background-color: black;
+        
+    }
+
+    .enzo {
+        font-size: 24px;
+        margin: auto;
+        width: 80%;
+        background-color: black;
+        height: 500px;
+        
+
+    }
+    .paragrafoomino {
+        background-color: #ffff;
+        height: 600px;
+        color: black;
+        margin: auto;
+        font-size: 24px;
+        }
+
+    .testoe {
+        width: 80%;
+        justify-content: center;
+        padding: 10%;
+    }
+
+    .imgomino img {
+        width: 300%;
+        margin: auto
+
+    }
+    .paragafofinal {
+        height: 450px;
+        margin: auto;
+        padding: 10% ;
+    }
+
+    .testof {
+        background-color: black;
+        color: #ffff;
+        font-size: 24px;
+        width: 100%;
+        margin: auto;
+    }
+
+footer nav ul {
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    color: #ffff;
+    padding: 48px;
+    list-style: none;
+    
+}
+footer nav ul a:hover
+{
+    text-decoration: underline;
+    color: #ffff;
+
+}
+
+footer nav ul a{
+    text-decoration: none;
+    height: 200px;
+    justify-content: center;
+    color: #ffff;
+    gap: 18px;
+    padding: 3px;
+    margin: auto;
+    font-size: 24px; 
+}
+@media (max-width:900px) {
+     header nav ul a {
+        font-size: 20px;
+        height: 50px;
+        
+    }
+
+        
+            header svg {
+                width: 40%;
+            margin: 30px;
+            }
+            header nav ul  {
+                align-items: center;
+                gap: 20px;
+            }
+            .testoeimg{
+                flex-direction: column;
+                gap: 10px;
+                      }
+
+            .testoeimg img {
+                width: 70%;
+                padding: 10px;
+                margin: 0;
+            }
+            .testo {
+                padding: 20px;
+                font-size: 22px;
+            }
+            .paragrafo {
+            flex-direction: column;
+            gap: 10px;
+            
+            
+
+            }
+
+            .paragrafo img {
+                margin: 0;
+                width: 50%;
+                height: auto;
+                height: 100%;
+            }
+
+            .trasposizioni {
+                font-size: 17px;
+                flex-direction: column;
+            }
+            .enzo {
+                font-size: 17px;
+            }
+
+            .testoe {
+                font-size: 17px;
+            }
+
+            .testof {
+                font-size: 17px;
+            }
+            footer nav ul a {
+                font-size: 17px;
+                        }
+        }
+
+
+    
+    
+
+
+
+
+
+
+
