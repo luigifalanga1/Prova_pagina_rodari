@@ -41,13 +41,24 @@ header {
     .copertina img{
         width: 100%;
     }
+    .titolo {
+        display: flex;
+  align-items: center;
+  justify-content: center;
+        }
     .titolo p {
         
-    font-size: 80px;
+        
+    font-size: 100px;
         font-family: 'Times New Roman', Times, serif;
     color: #FFD600;
     padding-top: 5%;
-    padding-left: 25%;
+    }
+
+    .text1 {
+        display: flex;
+  align-items: center;
+  justify-content: center;
     }
     .text1 p {
          font-size: 24px;
