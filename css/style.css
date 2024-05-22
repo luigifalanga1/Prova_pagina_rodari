@@ -7,8 +7,8 @@ body {
     
 } 
 h1, h2, h3, h4, p, ul, li {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    max-width: 50%;
 }
 header {
     max-width: 100%;
@@ -59,10 +59,11 @@ header {
         display: flex;
   align-items: center;
   justify-content: center;
+
     }
     .text1 p {
          font-size: 24px;
-         margin: 18%;
+         max-width: 50%;
 
     }
     .testoeimg{
@@ -158,9 +159,7 @@ header {
         }
 
     .testoe P {
-        width: 80%;
 
-        margin: 18%;
     }
 
     .imgomino img {
