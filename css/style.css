@@ -8,7 +8,7 @@ body {
 } 
 h1, h2, h3, h4, p, ul, li {
     margin: auto;
-    max-width: 50%;
+    max-width: 1100px;
 }
 header {
     max-width: 100%;
@@ -49,7 +49,7 @@ header {
     .titolo p {
         
         
-    font-size: 100px;
+    font-size: 48px;
         font-family: 'Times New Roman', Times, serif;
     color: #FFD600;
     padding-top: 5%;
@@ -64,6 +64,8 @@ header {
     .text1 p {
          font-size: 24px;
          max-width: 50%;
+         margin-top: 50px;
+         margin-bottom: 150px;
 
     }
     .testoeimg{
